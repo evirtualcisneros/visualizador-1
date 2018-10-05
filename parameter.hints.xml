@@ -3,6 +3,7 @@
     <blacklists>
       <blacklist language="Java">
         <added pattern="android.util.Log.i(tag,msg)" />
+        <added pattern="android.app.AlertDialog.Builder.Builder(context)" />
       </blacklist>
     </blacklists>
   </component>
